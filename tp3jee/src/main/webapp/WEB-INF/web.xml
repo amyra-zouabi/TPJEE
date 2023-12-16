@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServPrinc</servlet-name>
+  	<display-name>ServPrinc</display-name>
+  	<description></description>
+  	<servlet-class>controller.ServPrinc</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListeChambres</servlet-name>
+  	<display-name>ListeChambres</display-name>
+  	<description></description>
+  	<servlet-class>controller.ListeChambres</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AvantAjouterchambre</servlet-name>
+  	<display-name>AvantAjouterchambre</display-name>
+  	<description></description>
+  	<servlet-class>controller.AvantAjouterchambre</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AjouterChambre</servlet-name>
+  	<display-name>AjouterChambre</display-name>
+  	<description></description>
+  	<servlet-class>controller.AjouterChambre</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AjoutHotel</servlet-name>
+  	<display-name>AjoutHotel</display-name>
+  	<description></description>
+  	<servlet-class>controller.AjoutHotel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServPrinc</servlet-name>
+  	<url-pattern>/ServPrinc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListeChambres</servlet-name>
+  	<url-pattern>/ListeChambres</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AvantAjouterchambre</servlet-name>
+  	<url-pattern>/AvantAjouterchambre</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AjouterChambre</servlet-name>
+  	<url-pattern>/AjouterChambre</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AjoutHotel</servlet-name>
+  	<url-pattern>/AjoutHotel</url-pattern>
+  </servlet-mapping>
+</web-app>
